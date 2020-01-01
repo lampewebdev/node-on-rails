@@ -1,11 +1,12 @@
-import { green } from 'colors/safe';
 import program from 'commander';
+
+import newProject from './new';
 
 program
     .command('new <projectName>')
     .description('Create a new project.')
     .action((projectName: string) => {
-        console.log(green('Creating a new Project...'))
+        newProject({projectName})
     })
 
 program.parse(process.argv);
