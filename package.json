@@ -7,5 +7,10 @@
     "scripts": {},
     "dependencies": {
         "typescript": "^3.7.4"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^2.14.0",
+        "@typescript-eslint/parser": "^2.14.0",
+        "eslint": "^6.8.0"
     }
 }

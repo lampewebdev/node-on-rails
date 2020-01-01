@@ -1,5 +1,9 @@
 import colorsSafe from 'colors/safe';
 
-export default ({ projectName}: {projectName: string }) => {
+const newProject = ({ projectName }: { projectName: string }): boolean => {
     console.log(`Creating a new ${colorsSafe.green(projectName)} Project...`)
+    return true;
 }
+
+export { newProject }
+
