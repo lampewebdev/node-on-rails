@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "name": "node-on-rails",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {},
+    "dependencies": {
+        "typescript": "^3.7.4"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "@nor/core",
+  "version": "0.0.1",
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "typescript": "^3.7.4"
+  }
+}
