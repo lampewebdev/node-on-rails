@@ -1,1 +1,3 @@
-![node-on-rails logo](./docs/logo_transparent.png)
+<p align="center">
+    <img src="./docs/logo_transparent.png" height="160px" alt="Logo" />
+</p>
