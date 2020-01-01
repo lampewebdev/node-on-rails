@@ -2,5 +2,5 @@
   <img src="./docs/logo_transparent.png" height="240px" alt="Logo" />
 </p>
 <p align="center">
-  <i>🚄Node on Rails is a nodejs/typescript framework to help you bootstrap your project and help you develop your projects faster.🚄<i>
+  <i>🚄A nodejs/typescript framework to help you bootstrap your project and help you develop your projects faster.🚄<i>
 </p>
