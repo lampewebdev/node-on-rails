@@ -4,7 +4,7 @@
  "version": "0.0.1",
  "scripts": {
   "test": "jest",
-  "dev": "ts-node src/index.ts --color"
+  "dev": "ts-node src/index.ts"
  },
  "dependencies": {
   "colors": "^1.4.0",
