@@ -4,7 +4,9 @@
     "workspaces": [
         "packages/*"
     ],
-    "scripts": {},
+    "scripts": {
+        "upgrade:all": "find . -type f -name 'package.json' -not -path './.git/*' -not -path '*/node_modules/*' -execdir ncu --upgrade \\;"
+    },
     "dependencies": {
         "typescript": "^3.7.4"
     },
