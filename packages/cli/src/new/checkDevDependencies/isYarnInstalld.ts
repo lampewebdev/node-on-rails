@@ -4,7 +4,7 @@ import colorsSafe from 'colors/safe'
 export default (): boolean => {
     try {
         const yarnVersion = execSync('yarn --version').toString().trim();
-        console.log(colorsSafe.green(`✅  yarn installd in version: ${yarnVersion}.`))
+        console.log(`✅  yarn installd in version: ${colorsSafe.green(yarnVersion)}.`)
         return true
     } catch (error) {
         console.log(colorsSafe.red(`⛔  Please install yarn --> https://yarnpkg.com`))
