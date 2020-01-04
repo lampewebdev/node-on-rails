@@ -23,7 +23,6 @@ const checkIfNameIsValid = ({ projectName }: { projectName: string }): boolean =
     if (errors.length > 0) {
         errors.forEach(error => console.log(colorsSafe.red(`⛔  ${error}`)))
         throw Error('Project name is not')
-        return false
     }
     return true
 }
