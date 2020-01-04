@@ -4,7 +4,6 @@ import program from 'commander';
 import colors from 'colors';
 
 import { newProject } from './new';
-
 colors.enable();
 program
     .command('new <projectName>')

@@ -5,7 +5,7 @@
     "scripts": {
         "test": "jest",
         "dev": "ts-node src/index.ts",
-        "build": "rimraf lib && tsc "
+        "build": "rimraf lib && tsc && chmod +x ./lib/index.js"
     },
     "bin": {
         "nor": "./lib/index.js"

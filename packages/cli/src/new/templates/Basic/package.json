@@ -1,5 +1,5 @@
 {
-    "name": "/* projectName */",
+    "name": "project-name",
     "version": "0.0.1",
     "description": "My new node-on-rails project",
     "scripts": {
