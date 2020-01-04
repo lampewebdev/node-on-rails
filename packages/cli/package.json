@@ -10,6 +10,9 @@
     "bin": {
         "nor": "./lib/index.js"
     },
+    "engines": {
+        "node": ">=13"
+    },
     "dependencies": {
         "colors": "^1.4.0",
         "commander": "^4.0.1",

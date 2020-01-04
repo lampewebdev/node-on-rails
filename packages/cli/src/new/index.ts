@@ -1,5 +1,7 @@
 import colorsSafe from 'colors/safe'
-import { checkDevDependencies, generateNewProject, installNPMPackages } from './utils';
+import checkDevDependencies from './checkDevDependencies'
+import generateNewProject from './generateNewProject'
+import installNPMPackages from './installNPMPackages'
 
 const newProject = ({ projectName }: { projectName: string }): boolean => {
     try {
@@ -11,7 +13,6 @@ const newProject = ({ projectName }: { projectName: string }): boolean => {
     } catch (error) {
         process.exit();
     }
-
 }
 
 export { newProject }
