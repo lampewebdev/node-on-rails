@@ -2,6 +2,7 @@ import colorsSafe from 'colors/safe'
 import checkIfNameIsValid from './checkIfNameIsValid'
 import generateProjectFiles from './generateProjectFiles'
 import checkIfDirExists from './checkIfDirExists'
+import replaceProjectName from './replaceProjectName'
 
 const generateNewProject = ({ projectName }: { projectName: string }): boolean => {
     try {
@@ -12,6 +13,7 @@ const generateNewProject = ({ projectName }: { projectName: string }): boolean =
             console.log(`📁  Created project folder at: ${projectPath}/${projectName}`)
         }
         generateProjectFiles({ projectPath, projectName })
+        replaceProjectName({ projectPath, projectName })
         return true;
     } catch {
         console.log(`⛔  Could not create the project ${colorsSafe.red(projectName)}`)

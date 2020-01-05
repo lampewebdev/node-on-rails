@@ -5,7 +5,9 @@
     "scripts": {
         "test": "jest",
         "dev": "ts-node src/index.ts",
-        "build": "rimraf lib && tsc && chmod +x ./lib/index.js"
+        "build:clean": "rimraf lib",
+        "build": "yarn run build:clean && tsc && chmod +x ./lib/index.js && yarn run cp:templates",
+        "cp:templates": "cp -R ./src/new/templates ./lib/new/"
     },
     "bin": {
         "nor": "./lib/index.js"
