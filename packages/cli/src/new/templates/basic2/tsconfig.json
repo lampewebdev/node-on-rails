@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "lib": [
+            "es2016"
+        ],
+        "paths": {
+            "*": [
+                "server/src/*"
+            ]
+        },
+        "allowJs": true,
+        "target": "es2016",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "strict": true,
+    },
+    "include": [
+        "server/src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "./src/**/__tests__/*.ts"
+    ]
+}
